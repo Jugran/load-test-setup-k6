@@ -16,3 +16,8 @@ https://github.com/luketn/docker-k6-grafana-influxdb
    ```
 
 Load testing results can be viewed in Grafana at http://localhost:3000/d/k6/k6-load-testing-results
+
+**Stop the monitoring containers**
+```sh
+docker compose --profile monitoring down
+```
